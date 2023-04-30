@@ -24,3 +24,15 @@
 	- F. 0 since both false and null map to 0
 	- G. 3undefined since undefined becomes a string
 	- H. NaN since undefined becomes NaN
+14. Answers:
+	- A. true since '2' becomes the number 2
+	- B. false by lexorder
+	- C. true since 2 becomes the number 2
+	- D. false since triple equals checks without type conversion
+	- E. false since true = 1
+	- F. true since Boolean(2) = true
+15. `==` Checks equality with type conversion while `===` check equality wihout type conversion
+16. See code
+17. The result will be `[2,4,6]` because we loop through `array` and take each element and apply `doSomething()` to it and then push it into `newArr` which is what is returned. Thus calling `modifyArray([1,2,3], doSomething)` will return double each element which is `[2,4,6]`
+18. See code
+19. The output will be 1 4 3 2
